@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- List of Inspecta Modules. Syntax is very important. When adding a module to the list below, please make sure the module is added correctly. -->
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="za.co.instrotech.inspecta-$INSPECTA">
+  <feature name="inspecta" description="Instrotech INSPECTA Mk III"  version="$INSPECTA">
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/logback-core-1.1.3.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/logback-classic-1.1.3.jar</bundle>
+    <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/com.diffplug.osgi.extension.sun.misc-0.0.0.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/derby-10.11.1000001.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.util-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.logback-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.config-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.config.impl-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.protocol-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.protocol.v7-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.daq-$INSPECTA.jar</bundle>  
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.daq.impl-$INSPECTA.jar</bundle>  
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.fft-$INSPECTA.jar</bundle>  
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.dsp-$INSPECTA.jar</bundle>  
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.router-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.cache-$INSPECTA.jar</bundle> 
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.cache.memory-$INSPECTA.jar</bundle> 
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.httpd-$INSPECTA.jar</bundle>
+   <!--
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.httpd.config-$INSPECTA.jar</bundle>
+   -->
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.httpdadmin-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.db-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.store.file-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.watchdog-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.archive-$INSPECTA.jar</bundle>
+   <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.alarm-$INSPECTA.jar</bundle>
+   <!-- <bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.simulator-$INSPECTA.jar</bundle>   -->
+ </feature>
+</features>

@@ -1,0 +1,14 @@
+./ - Store library JAR files, inspecta-features.xml list, karaf directory
+
+karaf/ - This directory is to store the structures and minimum requirements for the a Apache Karaf container.
+
+
+
+inspecta-features.xml
+
+inspectrix
+logback
+
+logback
+sun.misc
+derby.jar

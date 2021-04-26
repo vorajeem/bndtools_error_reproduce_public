@@ -1,0 +1,7 @@
+# TODO: Add script to add AUTOMATICALLY module to inspecta-features.xml??
+
+
+<bundle start-level="100" start="true">file:inspecta/bundles/$INSPECTA/za.co.instrotech.inspecta.[module-name]-$INSPECTA.jar</bundle> 
+
+
+where [module-name] is the name of the module we would like to add e.g. cache, or httpd, etc.

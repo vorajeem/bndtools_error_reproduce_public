@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="Local" increment="1619430077000">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="public domain - http://unlicense.org/"/>
+      <attribute name="osgi.identity" value="com.diffplug.osgi.extension.sun.misc"/>
+      <attribute name="type" value="osgi.fragment"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="com.diffplug.osgi.extension.sun.misc"/>
+      <attribute name="bundle-version" value="0.0.0" type="Version"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="sun.misc"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="414" type="Long"/>
+      <attribute name="url" value="com.diffplug.osgi.extension.sun.misc/com.diffplug.osgi.extension.sun.misc-0.0.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="BA4B72B295EA39094E2D03EA13463FF486AA48D71DCAAE6CD8B15DA4DD2356A9"/>
+    </capability>
+    <requirement namespace="osgi.wiring.host">
+      <directive name="filter" value="(osgi.wiring.host=system.bundle)"/>
+      <directive name="extension" value="framework"/>
+      <directive name="cardinality" value="multiple"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="derby"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="10.11.1000001.1616546" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="derby"/>
+      <attribute name="bundle-version" value="10.11.1000001.1616546" type="Version"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.derby.authentication"/>
+      <attribute name="bnd.hashes" value="1380113055,-1055917240" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="derby"/>
+      <attribute name="bundle-version" value="10.11.1000001.1616546" type="Version"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.derby.database"/>
+      <attribute name="bnd.hashes" value="1854109083" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="derby"/>
+      <attribute name="bundle-version" value="10.11.1000001.1616546" type="Version"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.derby.io"/>
+      <attribute name="bnd.hashes" value="1199350319,1141874295,-372326754,-955659793" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="derby"/>
+      <attribute name="bundle-version" value="10.11.1000001.1616546" type="Version"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.derby.jdbc"/>
+      <attribute name="bnd.hashes" value="-2087587876,411754931,1136153209,-1321928222,-533620538,1299237842,843753440,1917601168,-1139142423,500793637,-998804912,2079648431,1382351211,1804482378,-1770005646,-952941608,-948849580,-1910039487,-199601316,-301090015,-984263323,2271995,1558076746,-356159231,-1036614153,-2096994304,-122062500" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="bundle-symbolic-name" value="derby"/>
+      <attribute name="bundle-version" value="10.11.1000001.1616546" type="Version"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.derby.vti"/>
+      <attribute name="bnd.hashes" value="-1557286323,1827565070,-1613406319,1029958926,-2062012918,1540732446,1841007508,-442510608,64951,554522068,2531,106806188,338734340,-945398065,-230291996,-225670870,-1284317240,-1505559468,-706604155,696648421,-1671635468" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="10.11.1000001.1616546" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="derby"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="10.11.1000001.1616546" type="Version"/>
+      <attribute name="osgi.wiring.host" value="derby"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="3103132" type="Long"/>
+      <attribute name="url" value="derby/derby-10.11.1000001.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="6C091DCC3133D7D29EED1B66424588BCA19EF56D6428D819D803FCDC535BE426"/>
+    </capability>
+  </resource>
+</repository>
